@@ -1,0 +1,19 @@
+set number relativenumber
+set incsearch
+set surround
+
+let mapleader = ","
+
+" copy paste from clipboard
+vnoremap <C-c> "+y
+map <C-p> "+p
+
+" copy paste yank
+map <leader>p "0p
+map <leader>P "0P
+
+" insert line below/above
+nnoremap <leader>ia 0i<ENTER><ESC>
+
+
+
