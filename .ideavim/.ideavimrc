@@ -26,5 +26,3 @@ nnoremap <leader>ib $a<ENTER><ESC>k
 nnoremap <leader>da k"_dd<ESC>
 nnoremap <leader>db j"_dd<ESC>k
 
-
-
