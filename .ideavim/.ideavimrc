@@ -1,9 +1,11 @@
 set number relativenumber
 set incsearch
 set surround
+set noerrorbells
+set shiftwidth=4
 
 " **********ideavim mappings**********
-map \b :action ToggleLineBreakpoint
+map <leader>b :action ToggleLineBreakpoint<ENTER>
 
 " **********vim mappings**********
 let mapleader = ","
