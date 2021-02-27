@@ -2,6 +2,10 @@ set number relativenumber
 set incsearch
 set surround
 
+" **********ideavim mappings**********
+map \b :action ToggleLineBreakpoint
+
+" **********vim mappings**********
 let mapleader = ","
 
 " copy paste from clipboard
@@ -12,8 +16,13 @@ map <C-p> "+p
 map <leader>p "0p
 map <leader>P "0P
 
-" insert line below/above
+" insert line above/below
 nnoremap <leader>ia 0i<ENTER><ESC>
+nnoremap <leader>ib $a<ENTER><ESC>k
+
+" delete line above/below
+nnoremap <leader>da k"_dd<ESC>
+nnoremap <leader>db j"_dd<ESC>k
 
 
 
